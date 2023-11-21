@@ -1,0 +1,361 @@
+/* Styles for the header section */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+/* Styles for the logo */
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin-top: 10vh;
+}
+
+/* Styles for the navigation links */
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+/* Hover effect for navigation links */
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+/* Styles for the navigation links in the navigation bar */
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 0%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c3d4d8;
+    font-size: 15px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Styles for the main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* Styles for the left block */
+.left-block {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 20vh;
+    left: 10vh;
+}
+/* Styles for the currency container */
+.currency-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 0.5vh;
+  margin: 1vh;
+  border-color: #185f81;
+  border-radius: 7%;
+}
+
+/* Styles for images inside the currency container */
+.currency-container img{
+  width: 10vh;
+  border-radius: 50%;
+  margin: 2vh;
+}
+
+/* Styles for paragraphs inside the left block */
+.left-block p {
+    font-weight: bold;
+    color: #c3d4d8;
+    padding-right: 3vh;
+}
+
+/* Styles for the right block container */
+.right-block-container {
+    border-style: solid;
+    border-width: 0.5vh;
+    margin: 1vh;
+    border-color: #185f81;
+    border-radius: 7%;
+}
+
+/* Styles for images inside the right block container */
+.right-block-container img{
+    width: 10vh;
+    border-radius: 50%;
+    padding-top: 2vh;
+}
+
+/* Styles for list items inside the right block container */
+.right-block-container div ul li{
+    justify-content: center;
+    color: #c3d4d8;
+    font-size: 14px;
+}
+
+/* Styles for the main content block */
+.block {
+    flex: 1;
+    max-width: 700px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 5px;
+    text-align: center;
+    max-height: 500px;
+    overflow: auto;
+    margin-left: -100px;
+}
+
+/* Styles for paragraphs inside the main content block */
+.block p {
+    color: #c3d4d8;
+}
+
+/* Styles for images inside the main content block */
+.block img {
+    height: 50vh;
+}
+
+/* Styles for the right block */
+.right-block {
+    flex: 0.5;
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 20vh;
+    right: 5vh;
+}
+
+/* Styles for paragraphs inside the right block */
+.right-block p {
+    font-weight: bold;
+    color: #c3d4d8;
+    font-size: 10px;
+}
+
+
+
+/* Styles for the footer container */
+.footer-container {
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    background-color: hsl(0, 0%, 25%);
+    color: #c3d4d8;
+}
+
+/* Styles for the list items inside the footer container */
+.footer-container ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+/* Hover effect for list items inside the footer container */
+.footer-container a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+/* Styles for the footer section */
+footer {
+    flex: 1;
+}
+
+/* Styles for list items inside the footer section */
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 0%;
+}
+
+/* Styles for links inside list items inside the footer section */
+footer ul li a {
+    text-decoration: none;
+    color: #c3d4d8;
+    font-size: 15px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 10%;
+  overflow: hidden;
+  width: 240px;
+}
+
+fieldset {
+  border: 0;
+  margin: 10px;
+  padding: 10px;
+}
+
+input {
+  border-radius: 10%;
+  margin: 1vh;
+}
+
+.contact-form-info {
+  padding: 20px 20px 0 20px;
+}
+
+.contact-form-info label {
+  color: #c3d4d8;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-form-info input {
+  border: 1px solid;
+  box-shadow: inset 0 1px 1px hsl(0, 0%, 10%);
+  color: #185f81;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.contact-form-action {
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+
+.contact-form-action .btn {
+  background: #185f81;
+  border: 0;
+  color: #c3d4d8;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+
+.contact-form-action label {
+  color: #185f81;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+/* Media query for responsiveness*/
+@media(max-width: 1250px) {
+  .block {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 5px;
+    text-align: center;
+    max-height: 500px;
+    margin-left: -100px;
+  }
+
+  .header {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .container {
+      flex-direction: column;
+      height: 100%;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      height: 100%;
+  }
+
+  .left-block{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20vh;
+  }
+
+  .right-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: static;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .right-block-container {
+    padding: 5vh;
+  }
+
+}
+
+@media (max-width: 950) {
+  .left-block{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    max-width: 10px;
+    margin: 0 auto;
+    margin-top: 20vh;
+  }
+  
+  .currency-container img{
+    width: 5vh;
+    border-radius: 50%;
+    margin: 1vh;
+  }
+
+  .left-block p {
+      font-weight: bold;
+      color: #185f81;
+      padding-right: 1vh;
+  }
+
+}
+
+
+
+
